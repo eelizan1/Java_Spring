@@ -40,7 +40,7 @@ public class WelcomeServletNew extends HttpServlet {
 		// create welcomeService object
 		WelcomeService welcomeService = new WelcomeService(); 
 		// create message list - will return welcome message 
-		List<String> welcomeMessage = welcomeService.getWelcomeMessage("Enrico"); 
+		List<String> welcomeMessage = welcomeService.getWelcome("Enrico"); 
 		request.setAttribute("myWelcomeMessage", welcomeMessage);
 		
 		// 2. Retrieve request dispatcher - mechanism to send information, welcomeMessage, to jsp file  

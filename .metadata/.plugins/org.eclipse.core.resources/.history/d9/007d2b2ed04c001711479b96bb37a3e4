@@ -10,7 +10,7 @@ import java.util.*;
 // returns an array list to be displayed in the view 
 public class WelcomeService {
 	
-	public List<String> getWelcomeMessage(String name) {
+	public List<String> getWelcome(String name) {
 		List<String> myWelcomeMessage = new ArrayList<>(); 
 		
 		// add data to the list 
