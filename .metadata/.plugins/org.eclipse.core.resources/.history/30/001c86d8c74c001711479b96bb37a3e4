@@ -1,0 +1,5 @@
+package com.elizan.service.demo;
+
+public class WelcomeService {
+
+}

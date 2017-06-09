@@ -1,0 +1,13 @@
+package com.elizan.service.demo;
+import java.util.*; 
+
+
+/*
+ * Demonstrates separating the "logic" from the view 
+ */
+
+public class WelcomeService {
+	public List<String> getWelcome(String name) {
+		
+	}
+}
